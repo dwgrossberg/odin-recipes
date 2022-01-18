@@ -39,7 +39,7 @@ a {
     color: goldenrod;
 }
 
-#home {
+.home {
     font-size: 20px;
     background-color: honeydew;
     border-style: solid;
@@ -47,6 +47,10 @@ a {
     border-color: pink;
 }
 
-.homepage {
+.step1 {
+    font-style: italic;
+}
+
+#homepage {
     background-color: greenyellow;
 }
