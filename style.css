@@ -6,6 +6,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: sienna;
+    margin-bottom: 100px;
 }
 
 img {
@@ -36,7 +37,8 @@ a {
     font-family: tahoma, sans-serif;
     font-weight: normal;
     text-align: center;
-    color: goldenrod;
+    color: royalblue;
+    text-decoration: none;
 }
 
 .home {
@@ -52,5 +54,16 @@ a {
 }
 
 #homepage {
-    background-color: greenyellow;
+    background-color: lavender;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
 }
