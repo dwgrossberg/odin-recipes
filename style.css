@@ -6,7 +6,6 @@ h1 {
     font-weight: bold;
     text-align: center;
     color: sienna;
-    margin-bottom: 100px;
 }
 
 img {
@@ -39,6 +38,7 @@ a {
     text-align: center;
     color: royalblue;
     text-decoration: none;
+    margin-bottom: 50px;
 }
 
 .home {
@@ -66,4 +66,10 @@ ul {
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
